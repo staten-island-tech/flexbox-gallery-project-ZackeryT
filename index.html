@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1 class="name">I am empty</h1>
+    <section class="parent">
+        <div class="child child-1">
+            <img src="Images/Yuuji.png" class="Imgs" alt="Yuuji">
+            <h2>Yuuji Itadori</h2>
+        </div>
+    
+        <div class="child child-1">
+            <img src="Images/Gojo.png" class="Imgs" alt="Gojo">
+            <h2>Satoru Gojo</h2>
+        </div>
+        <div class="child child-1">
+            <img src="Images/Megumi.png" class="Imgs" alt="Megumi">
+            <h2>Megumi Fushiguro</h2>
+        </div>
+    </section>
+    <section class="parent">
+        <div class="child child-2">
+            <img src="Images/Nobara.png" class="Imgs" alt="Nobara">
+            <h2>Nobara Kugisaki</h2>
+        </div>
+        <div class="child child-2">
+            <img src="Images/Inumaki.png" class="Imgs" alt="Inumaki">
+            <h2>Toge Inumake</h2>
+        </div>
+        <div class="child child-2">
+            <img src="Images/Maki.png" class="Imgs" alt="Maki">
+            <h2>Maki Zenin</h2>
+        </div>
+    </section>
+    <section class="parent">
+        <div class="child child-3"> 
+            <img src="Images/Panda.png" class="Imgs" alt="Panda">
+            <h2>Panda</h2>
+        </div>
+        <div class="child child-4">
+            <img src="Images/Todo.png" class="Imgs" alt="Todo">
+            <h2>Aoi Todo</h2>
+        </div>
+        <div class="child child-5">
+            <img src="Images/Nanami.png" class="Imgs" alt="Nanami">
+            <h2>Kento Nanami</h2>
+        </div>
+    </section>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+        $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+</body>
+
+</html>
